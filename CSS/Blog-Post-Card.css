@@ -1,24 +1,29 @@
+body{
+  background-color: #f0f0f0;
+}
 .blog-post-card{
-  background-color:white;
-  border-radius:10px;
-  width:50%;
+  max-width:30%;
   text-align:center;
+  padding: 20px;
   margin:auto;
 }
 
 .post-img{
   background-image:contain;
   width:100%;
-  border-bottom:10px solid brown;
+  border-bottom:7px solid #333;
 }
 
 .post-content{
+  box-shadow: 3px 5px 5px #33333350;
+  border-radius:8px;
   padding:20px
 }
 
 .post-title{
-  color:black;
+  color:#333;
   margin:10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .post-excerpt{
@@ -28,14 +33,15 @@
 
 .read-more{
   color:white;
-  background-color:brown;
-  margin:10px;
+  background-color:#333;
+  margin: 10px;
   padding:10px;
-  border-radius:10px;
+  border-radius:5px;
   display:inline-block;
 }
 
 .read-more:hover{
-  background-color:black;
+  background-color:#333;
   color:white;
+  opacity: 0.9;
 }

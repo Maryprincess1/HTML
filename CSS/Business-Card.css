@@ -17,12 +17,22 @@ margin-bottom:5px;
   margin-right:auto;
   text-align:center;
   font-size:16px;
+  border: darkslategray, 3px, solid;
+
+}
+
+#port{
+  color: blue;
 }
 
 .profile-image{
-  max-width:100%
+  max-width:60%;
+  border: lightgrey, 2px, solid;
 }
 
 a{
-  text-decoration:none;
+  color: maroon;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
 }

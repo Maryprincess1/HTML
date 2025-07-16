@@ -4,34 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/CSS/Job-Application-Form.css">
 </head>
 <body>
 
 <div class="container">
- <form>
-    <label for="name">Full Name:</label>
-   <input type="text" id="name"> 
-   <label for="email">Email:</label>
-   <input type="email" id="email">
 
-   <select id="position">
-    <option selected value="select a postion">Select a position</option>
-    <option value="developer">Developer</option>
-    <option value="designer">Designer</option>
-    <option value="Manager">Manager</option>
-   </select>
+    <h1>Job-Application-Form</h1>
+    <form>
+            <label for="name" class="label">Full Name:</label>
+            <div>
+            <input type="text" id="name" placeholder="Enter your name"> 
+            </div>
+            <label for="email" class="label">Email:</label>
+            <div>
+            <input type="email" id="email" placeholder="Enter your email">
+            </div>
 
-   <fieldset class="radio-group">
-   <input type="radio" name="availability" id="full-time">
-   <label checked for="full-time">Full-time</label>
-   <input type="radio" name="availability" id="part-time">
-   <label for="part-time">Part-time</label>
-   </fieldset>
+    <label for="position" class="label">Position:</label>
+    <div>
+    <select id="position">
+        <option selected value="select a postion">Select a position</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="Manager">Manager</option>
+    </select>
+    </div>
 
-   <textarea id="message"></textarea>
+    <fieldset class="radio-group">
+    <legend>Availability:</legend>
+    <input checked type="radio" name="availability" id="full-time">
+    <label class="label2" for="full-time">Full-time</label>
+    <input type="radio" name="availability" id="part-time">
+    <label class="label2" for="part-time">Part-time</label>
+    </fieldset>
+    
+    <h3 class="label">Why do you want this job?</h3>
 
-    <button type="submit">Submit Application</button>
+    <div>
+    <textarea id="message" placeholder="Write your message here"></textarea>
+    </div>
+
+        <div class="button">
+            <button type="submit">Submit Application</button>
+        </div>
  </form>
  
 </div>

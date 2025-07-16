@@ -1,0 +1,36 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-color:Thistle;
+}
+
+#playing-cards{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.card{
+  justify-content:space-between;
+  width:200px;
+  height:250px;
+  background-color:white;
+  display:flex;
+}
+
+.left{
+  align-self:flex-start;
+}
+
+.middle{
+  align-self:center;
+  flex-direction:column;
+  display:flex;
+}
+
+.right{
+  align-self:flex-end;
+}
